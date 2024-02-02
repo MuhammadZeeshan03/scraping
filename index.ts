@@ -2,8 +2,7 @@ const puppeteer = require("puppeteer");
 import { Browser } from "puppeteer";
 const fs = require("fs");
 
-const url =
-  "https://www.loopnet.com/search/office-space/united-kingdom/for-lease/?sk=b2884a00cdbb0d9d406b462253d8853c&e=u";
+const url = "";
 
 const main = async () => {
   const browser: Browser = await puppeteer.launch({ headless: false });
